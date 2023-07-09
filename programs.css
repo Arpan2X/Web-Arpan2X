@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(60, 110, 110);
+    width: 1920px;
+}
+#header{
+    height: 75px;
+    width: 1920px
+    display: flex;
+    background-color: rgb(33, 168, 168);
+
+}
+.header1{
+    height: 75px;
+    width: 1500px;
+    float: right;
+}
+.header1 h2{
+    margin-top: 0;
+    padding-top: 6px;
+    color:black;
+    font-size: 60px;
+    padding-right: 400px;
+}
+.logo{
+    height:75px;
+    width: 75px;
+    background-color: red;
+    float: left;
+    background-color: rgb(33, 168, 168);
+}
+#header1{
+    height: 20px;
+    background-color: rgb(86, 179, 193);
+}
+#header1 h3{
+    text-align: center;
+    padding-top: 1px;
+    color: black;
+    font-size: 15px;
+}
+#nav_bar{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    margin-top: 5px;
+}
+#nav_bar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 40px;
+    float: left;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#nav_bar a:hover{
+    color: red;
+}
+#image{
+    width: 1900px;
+}
+#Intro{
+    height: 300px;
+    width: 100%;
+    color: white}
+#Intro h2{
+    text-decoration: underline;
+    font-size: 40px;
+}
+#Intro p{
+    font-size: 20px;
+
+}
+#message{
+    height: 400px;
+    width: 100%;
+    display: flex;
+
+}
+#message1{
+    height: 400px;
+    width: 70%;
+
+}
+#message1 h2{
+    text-decoration: underline;
+    font-size: 35px;
+    color: white;
+}
+#message p{
+
+    font-size: 20px;
+    color: whitesmoke;
+}
+#pri_photo{
+    height: 400px;
+    width: 30%;
+}
+#pri_photo img{ 
+    padding-top: 50px;
+    padding-left: 75px;
+
+}
+#footer{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(33, 168, 168)
+}
+#footer p{
+    text-align: center;
+    padding-top: 5px;
+} 
